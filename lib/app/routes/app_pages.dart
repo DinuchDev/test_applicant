@@ -20,7 +20,7 @@ part 'app_routes.dart';
 class AppPages {
   AppPages._();
 
-  static const INITIAL = Routes.ACCOUNT;
+  static const INITIAL = Routes.TABBAR;
 
   static final routes = [
     GetPage(
