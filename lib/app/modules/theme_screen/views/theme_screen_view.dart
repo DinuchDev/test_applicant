@@ -24,7 +24,7 @@ class ThemeScreenView extends GetView<ThemeScreenController> {
           ),
           title: ContentText(
             title: 'ផ្ទៃបង្ហាញ',
-            color: Colors.grey.withOpacity(1),
+            color: Colors.grey.withOpacity(1), fontWeight: FontWeight.w500,
           ),
           centerTitle: true,
         ),
