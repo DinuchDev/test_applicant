@@ -24,7 +24,7 @@ class AccountView extends GetView<AccountController> {
                   CircleAvatar(
                     radius: 40,
                     backgroundImage: NetworkImage(
-                        "https://img.freepik.com/premium-psd/man-vector-avatar-profile-png-transparent-background_1257443-984.jpg",
+                        "https://pbs.twimg.com/profile_images/1235695105467707394/I-e9byb2_400x400.png",
                         scale: 1.0),
                   ),
                   SizedBox(width: 16),
