@@ -9,6 +9,7 @@ import '../controllers/tabbar_controller.dart';
 
 class TabbarView extends GetView<TabbarController> {
   TabbarView({super.key});
+
   var screen = [
     HomeView(),
     AccountView(),
@@ -34,22 +35,22 @@ class TabbarView extends GetView<TabbarController> {
           items: [
             BottomNavigationBarItem(
               label: "Home",
-              backgroundColor: Colors.black,
+              // backgroundColor: Colors.white,
               icon: SvgPicture.asset('assets/svg/home.svg'),
               activeIcon: SvgPicture.asset('assets/svg/home_fill.svg',
-                  colorFilter: ColorFilter.mode(Colors.white, BlendMode.dstIn)),
+                  color: Colors.grey.withOpacity(1)),
             ),
             BottomNavigationBarItem(
               label: "Account",
-              backgroundColor: Colors.black,
+              // backgroundColor: Colors.white,
               icon: SvgPicture.asset('assets/svg/account.svg'),
               activeIcon: SvgPicture.asset('assets/svg/account_fill.svg',
-                  colorFilter: ColorFilter.mode(Colors.white, BlendMode.dstIn)),
+                  color: Colors.grey.withOpacity(1)),
             ),
           ],
           selectedItemColor: Colors.white,
-          unselectedItemColor: Colors.white,
-          showSelectedLabels: true,
+          unselectedItemColor: Colors.black,
+          showSelectedLabels: false,
         ),
       ),
     );
